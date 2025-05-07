@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 360px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #666;
+  }
+  
+  label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 12px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+  
+  .options input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4ea5ff;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 115, 255, 0.2);
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #3a94e8;
+  }
+  
+  .btn-google {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .btn-google img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .signup {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 12px;
+  }
+  
+  .signup a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  .signup a:hover {
+    text-decoration: underline;
+  }
+  
