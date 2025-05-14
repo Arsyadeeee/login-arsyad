@@ -1,0 +1,154 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container */
+  .login-container {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    width: 360px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading & Subtext */
+  .login-container h2 {
+    margin-bottom: 8px;
+    font-size: 26px;
+    text-align: center;
+  }
+  
+  .login-container p {
+    margin-bottom: 25px;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Labels */
+  label {
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 14px;
+    display: block;
+    color: #333;
+  }
+  
+  /* Input Fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 14px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: border-color 0.2s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #4ea5ff;
+  }
+  
+  /* Options Row */
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    margin: 10px 0 20px;
+  }
+  
+  .options input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .options a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .options a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Submit Button */
+  .btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4ea5ff;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 115, 255, 0.2);
+  }
+  
+  .btn:hover {
+    background-color: #3a94e8;
+  }
+  
+  /* Google Sign-in (for login page only) */
+  .btn-google {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn-google img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Signup Redirect Text */
+  .signup {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 12px;
+  }
+  
+  .signup a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error Message */
+  #error-message {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  
